@@ -3,3 +3,5 @@ An Android application that allows the user to store a database of personal item
 
 Download the App on the Google Play Store
 https://play.google.com/store/apps/details?id=com.joshdoucet.snapandsave&hl=en_US
+
+Several project files were utilized on behalf of the open source Android project.
