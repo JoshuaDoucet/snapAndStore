@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Snap and Store</string>
+
+    <!--EditorActivity Title Options-->
+    <string name="title_add_item">Add an Item</string>
+    <string name="tittle_edit_item">Edit an Item</string>
+
+    <!--Button Messages-->
+    <string name="button_track_sale">Track a Sale</string>
+    <string name="button_track_shippment">Receive Shipment</string>
+    <string name="button_order_more">Order Item via Email</string>
+    <string name="button_add_image">Take a picture</string>
+    <string name="minus">-1</string>
+
+    <!--Strings used as descriptions for editable fields in the editor activity-->
+    <string name="id_title">Unique ID #  </string>
+    <string name="description_title">Title: </string>
+    <string name="price_title">Price $</string>
+    <string name="current_quantity_title">Quantity: </string>
+    <string name="supplier_title">Supplier:</string>
+    <string name="mot_for_sale">Not For Sale</string>
+    <string name="free">FREE</string>
+    <string name="currency_symbol">$</string>
+    <string name="total_value">Inventory Value, US Dollars</string>
+
+    <!--Editable Hints-->
+    <string name="required_field">(required)</string>
+    <string name="optional_field">(optional)</string>
+
+    <!--Empty View for inventory list view. Displays when list is empty-->
+    <string name="empty_view">There are no items in your inventory. Click the \"add\" button to add an item!</string>
+
+    <!--EXCEPTION STRINGS-->
+    <string name="unknown_uri_query">Cannot Query Unknown URI</string>
+    <string name="cannot_insert_uri">Cannot Insert URI - </string>
+    <string name="invalid_name">Invalid Name</string>
+    <string name="invalid_quantity">Invalid Quantity</string>
+    <string name="invalid_supplier">Invalid Supplier</string>
+    <string name="invalid_price">Invalid Price</string>
+    <string name="invalid_data">Invalid Data. Try Again</string>
+    <string name="invalid_delete_uri">URI not valid for deletion</string>
+    <string name="invalid_update_uri">URI not valid for update</string>
+
+    <!--MENU TITLES-->
+    <string name="menu_insert_sample">Insert Sample Data</string>
+    <string name="menu_delete_all">Delete All Inventory</string>
+    <string name="menu_delete_row">Delete Item</string>
+    <string name="menu_insert_row">Save Item</string>
+
+    <!--TOAST MESSAGES-->
+    <string name="item_saves">Item Saved</string>
+    <string name="item_error">Item Not Saved</string>
+    <string name="editor_delete_item_successful">Items deleted</string>
+    <string name="editor_delete_item_failed">Error with deleting item</string>
+    <string name="quantity_less_0">Quantity Negative. Try Again</string>
+    <string name="camera_unavailable">Camera Unavailable, Check Permissions</string>
+    <string name="sold">- Quantity reduced.</string>
+    <string name="no_image">Please add an Image</string>
+
+    <!--DIALOG MESSAGES-->
+    <string name="delete_dialog_msg">Delete this item?</string>
+    <string name="delete_all_dialog_msg">Delete ALL inventory?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+    <string name="message_sale">How many units were sold?</string>
+    <string name="update">Update</string>
+    <string name="message_receive">How many units were received?</string>
+    <string name="sell_one">, \nSell (ONE) of this item?</string>
+
+    <!--Email Text-->
+    <string name="email_subject">Request Item Order - \u0020 </string>
+    <string name="email_header">Dear \u0020 </string>
+    <string name="email_body">,\n\n We are in need of more supply! If you can help us out
+            we are looking to do business.\n\n
+            -Units Needed: -Quantity-\n\n
+            Your Business Partner,\n
+            -Business Name-</string>
+    <string name="open_app_message">Order via Email</string>
+
+    <!--Tools text-->
+    <string name="sample_num">12</string>
+    <string name="invalid_name_toast">Invalid Name. Try Again</string>
+    <string name="invalid_supplier_toast">Invalid Supplier. Try Again</string>
+    <string name="invalid_quantity_toast">Invalid Quantity. Try Again</string>
+    <string name="invalid_price_toast">Invalid Price. Try Again</string>
+    <string name="price_empty">Price can\'t be empty. Try Again</string>
+    <string name="quantity_empty">Quantity can\'t be empty. Try Again</string>
+
+</resources>
